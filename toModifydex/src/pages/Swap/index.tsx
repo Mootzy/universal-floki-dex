@@ -467,6 +467,11 @@ const Swap = () => {
               {isExpertMode && swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
             </BottomGrouping>
           </CardBody>
+          <PageHeader
+            title={TranslateString(8, 'Help')}
+            description={TranslateString(1192, 'Trade tokens in an instant')}
+            
+          />
         </Wrapper>
       </RainbowCard>
       <AdvancedSwapDetailsDropdown trade={trade} />
